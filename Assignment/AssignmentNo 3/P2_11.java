@@ -1,0 +1,22 @@
+class P2_11
+{
+	public static void main(String args[])
+	{
+		for(int i=1;i<=5;i++)
+		{
+			for(int space=1;space<=i;space++)
+			{
+				System.out.print(" ");
+			}
+			for(int j=i;j<=5;j++)
+			{
+				System.out.print("*");
+			}
+			for(int k=1;k<=i;k++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+}
